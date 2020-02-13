@@ -1,0 +1,4 @@
+rootProject.name = 'spring-webflux-reactive-cassandra'
+include 'web-sync'
+include 'web-async'
+include 'webflux-reactive-cassandra'

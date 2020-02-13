@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: web-reactive-cassandra
+
+server:
+  port: 9082
+
+# Cassandra Connection info
+cassandra:
+  contactpoints: 127.0.0.1
+  port: 9042
+  keyspace: spring_reactive
+  basepackages: com.sk.learn
+
+  # logging.level.root=debug
+logging:
+  pattern:
+    #console: %d{HH:mm:ss.SSS} [%thread] %logger.%M - %msg%n
+
